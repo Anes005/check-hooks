@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(to right, #092147,#1A488E,#97b2de)
+}
+.nav{
+    background :#031544;
+    height: 80px;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFBA00;
+
+}
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px 80px;
+    align-items: stretch;
+   
+    
+    
+}
+.filter{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    gap:10px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
