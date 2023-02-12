@@ -1,6 +1,7 @@
 import '../App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 function MovieCard(props) {
   return (
@@ -16,7 +17,7 @@ function MovieCard(props) {
              <p style={{fontSize:"20px" ,margin:"0px"}}>{props.rate}</p>
             </div>
         </Card.Text>
-        <Button variant="primary">Watch now</Button>
+        <Link to={`/movie/${props.name}`} ><Button variant="primary">Watch now</Button></Link>
       </Card.Body>
     </Card>
     
